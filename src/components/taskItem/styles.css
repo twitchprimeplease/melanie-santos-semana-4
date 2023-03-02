@@ -1,0 +1,23 @@
+.task-item{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+    border-radius: 10px;
+    margin:8px;
+    max-width: 900px;
+    min-width: 500px;
+    padding: 8px 16px;;
+
+}
+
+.task-item:hover{
+    background-color: rgb(252, 166, 180);
+}
+.task-item label{
+    width: 70%;
+}
+
+.task-item input{
+    width:10%;
+    
+}

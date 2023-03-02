@@ -17,3 +17,20 @@ main{
 body {
     background-color: lightpink;
 }
+
+.btn-outline-secondary{
+    color: crimson;
+    border-color: crimson;
+}
+.btn-outline-secondary:hover{
+    background-color: crimson;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
